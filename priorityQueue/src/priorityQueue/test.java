@@ -22,7 +22,7 @@ class node implements Comparable<node> {
 		if(that == null) {
 			return 1;
 		}
-		if (this.priority > that.priority) {
+		if (this.priority >that.priority) {
 			return 1;
 		}
 		return 0;
